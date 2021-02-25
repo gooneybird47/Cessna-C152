@@ -4,6 +4,7 @@
 
 ![c152-1](screenshots/c152-1.jpg)
 ![c152-2](screenshots/c152-2.jpg)
+![c152-lights](screenshots/c152-lights.jpg)
 
 Download the zip file and extract the "c152" folder into the "$FG_ROOT/AI/Aircraft" folder.
 
