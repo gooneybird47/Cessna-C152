@@ -5,42 +5,7 @@
  <author>Brett Harrison</author>  
  <path>Models/c152.ac</path>
  
-<!--   <offsets>
-        <pitch-deg>2.15</pitch-deg>
-    </offsets>
-	
-    <animation>
-        <type>rotate</type>
-        <property>velocities/true-airspeed-kt</property>
-        <interpolation>
-            <entry>
-                <ind>0.0</ind>
-                <dep>0.0</dep>
-            </entry>
-            <entry>
-                <ind>70.0</ind>
-                <dep>0.0</dep>
-            </entry>
-            <entry>
-                <ind>90</ind>
-                <dep>-2.15</dep>
-            </entry>
-            <entry>
-                <ind>100</ind>
-                <dep>-2.15</dep>
-            </entry>
-        </interpolation>
-        <center>
-            <x-m>0.0</x-m>
-            <y-m>0.0</y-m>
-            <z-m>0.0</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-    </animation> -->
+
 
     <animation>
     <name>propall</name>
@@ -86,6 +51,9 @@
       <z>  0.000 </z>
     </axis>
   </animation>
- 
+         <!-- ALS Navigation Lights Objects -->
+  <model>
+    <path>Lights/c152-NavLights.xml</path>
+  </model>
  
 </PropertyList>
