@@ -117,10 +117,16 @@
 		<object-name>BeaconGrouped</object-name>
 		<nopreview/>
 		<condition>
-			<greater-than>
-				<property>transponder-id</property>
-				<value type="string">0</value>
-			</greater-than>
+			<or>
+				<greater-than>
+					<property>transponder-id</property>
+					<value type="string">0</value>
+				</greater-than>
+				<greater-than>
+					<property>velocities/true-airspeed-kt</property>
+					<value>0</value>
+				</greater-than>
+			</or>
 		</condition>
 	</animation>
 	<!-- Show Strobes when Aircraft on runway or airborne -->
